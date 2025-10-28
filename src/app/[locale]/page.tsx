@@ -1,7 +1,5 @@
-import { useTranslations } from "next-intl";
+import { redirect } from "next/navigation";
 
 export default function HomePage() {
-  const t = useTranslations("ArticleForm");
-
-  return <div>{t("title.label")}</div>;
+  redirect("/articles");
 }

@@ -1,3 +1,4 @@
+import ProtectedRoute from "@/components/protected-page";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -39,7 +40,9 @@ export default async function RootLayout({ children, params }: Props) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <NextIntlClientProvider locale={locale}>
-          <Providers>{children}</Providers>
+          <Providers>
+            <ProtectedRoute>{children}</ProtectedRoute>
+          </Providers>
         </NextIntlClientProvider>
       </body>
     </html>
