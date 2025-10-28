@@ -1,0 +1,151 @@
+{
+  "ArticleDialog": {
+    "editTitle": "Edit Article",
+    "addTitle": "Add New Article"
+  },
+  "ArticleForm": {
+    "title": {
+      "label": "Title",
+      "required": "Title is required"
+    },
+    "category": {
+      "label": "Category",
+      "required": "Category is required",
+      "placeholder": "Select category"
+    },
+    "categories": {
+      "Technology": "Technology",
+      "Health": "Health",
+      "Education": "Education",
+      "Business": "Business"
+    },
+    "tags": {
+      "label": "Tags (comma-separated)",
+      "placeholder": "e.g., react, nextjs, ai"
+    },
+    "coverImage": {
+      "label": "Cover Image",
+      "previewAlt": "Cover preview"
+    },
+    "content": {
+      "label": "Content"
+    },
+    "editor": {
+      "bold": "Bold",
+      "italic": "Italic",
+      "h1": "H1",
+      "list": "List",
+      "loading": "Loading editor...",
+      "placeholder": "<p>Start writing your article...</p>"
+    },
+    "published": {
+      "label": "Published"
+    },
+    "publishDate": {
+      "label": "Scheduled Publish Date",
+      "placeholder": "Pick a date"
+    },
+    "actions": {
+      "cancel": "Cancel",
+      "create": "Create Article",
+      "update": "Update Article"
+    }
+  },
+  "ArticleList": {
+    "title": "Articles",
+    "addButton": "Add Article",
+    "emptyState": "No articles yet. Click \"Add Article\" to create one.",
+    "dragHandle": "Drag to reorder",
+    "editAria": "Edit article",
+    "deleteAria": "Delete article",
+    "export": {
+      "button": "Export to Excel",
+      "buttonAria": "Export articles to Excel",
+      "sheetName": "Articles",
+      "filename": "articles",
+      "id": "ID",
+      "title": "Title",
+      "category": "Category",
+      "tags": "Tags",
+      "coverImage": "Cover Image",
+      "published": "Published",
+      "publishDate": "Publish Date",
+      "createdAt": "Created At",
+      "contentPreview": "Content Preview",
+      "yes": "Yes",
+      "no": "No",
+      "none": "None",
+      "na": "N/A"
+    }
+  },
+  "AddArticlePage": {
+    "title": "Add New Article",
+    "cancel": "Cancel"
+  },
+  "SettingsPage": {
+    "title": "Profile Settings",
+    "profileImage": {
+      "label": "Profile Image",
+      "hint": "Upload a square image (JPG, PNG)"
+    }
+  },
+  "ArticlesStats": {
+    "lineChart": {
+      "title": "Publications Over Time",
+      "label": "Articles"
+    },
+    "pieChart": {
+      "title": "By Category"
+    },
+    "barChart": {
+      "title": "Status Breakdown"
+    },
+    "status": {
+      "Published": "Published",
+      "Draft": "Draft",
+      "Scheduled": "Scheduled"
+    },
+    "categories": {
+      "Technology": "Technology",
+      "Health": "Health",
+      "Education": "Education",
+      "Business": "Business"
+    }
+  },
+  "DateRangePicker": {
+    "placeholder": "Pick a date range"
+  },
+  "StatusPage": {
+    "title": "Articles Status",
+    "articlesCount": "articles",
+    "inRange": "in selected range",
+    "viewArticles": "View Articles",
+    "filter": {
+      "title": "Filter by Date"
+    },
+    "presets": {
+      "allTime": "All Time",
+      "last30Days": "Last 30 Days"
+    },
+    "showingFrom": "Showing from",
+    "to": "to"
+  },
+  "LanguageSwitcher": {
+    "placeholder": "Language",
+    "ar": "Arabic",
+    "en": "English"
+  },
+  "ModeToggle": {
+    "toggle": "Toggle theme",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "AppSidebar": {
+    "groupLabel": "Application",
+    "items": {
+      "articles": "Articles",
+      "stats": "Stats",
+      "settings": "Settings"
+    }
+  }
+}

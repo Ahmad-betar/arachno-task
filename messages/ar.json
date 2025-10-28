@@ -1,0 +1,151 @@
+{
+  "ArticleDialog": {
+    "editTitle": "تعديل المقال",
+    "addTitle": "إضافة مقال جديد"
+  },
+  "ArticleForm": {
+    "title": {
+      "label": "العنوان",
+      "required": "العنوان مطلوب"
+    },
+    "category": {
+      "label": "الفئة",
+      "required": "الفئة مطلوبة",
+      "placeholder": "اختر الفئة"
+    },
+    "categories": {
+      "Technology": "تقنية",
+      "Health": "صحة",
+      "Education": "تعليم",
+      "Business": "أعمال"
+    },
+    "tags": {
+      "label": "الوسوم (مفصولة بفواصل)",
+      "placeholder": "مثال: رياكت, نكست, ذكاء اصطناعي"
+    },
+    "coverImage": {
+      "label": "صورة الغلاف",
+      "previewAlt": "معاينة الغلاف"
+    },
+    "content": {
+      "label": "المحتوى"
+    },
+    "editor": {
+      "bold": "غامق",
+      "italic": "مائل",
+      "h1": "عنوان 1",
+      "list": "قائمة",
+      "loading": "جاري تحميل المحرر...",
+      "placeholder": "<p>ابدأ الكتابة...</p>"
+    },
+    "published": {
+      "label": "منشور"
+    },
+    "publishDate": {
+      "label": "تاريخ النشر المجدول",
+      "placeholder": "اختر تاريخًا"
+    },
+    "actions": {
+      "cancel": "إلغاء",
+      "create": "إنشاء المقال",
+      "update": "تحديث المقال"
+    }
+  },
+  "ArticleList": {
+    "title": "المقالات",
+    "addButton": "إضافة مقال",
+    "emptyState": "لا توجد مقالات بعد. انقر على \"إضافة مقال\" لإنشاء واحدة.",
+    "dragHandle": "اسحب لإعادة الترتيب",
+    "editAria": "تعديل المقال",
+    "deleteAria": "حذف المقال",
+    "export": {
+      "button": "تصدير إلى إكسل",
+      "buttonAria": "تصدير المقالات إلى ملف إكسل",
+      "sheetName": "المقالات",
+      "filename": "المقالات",
+      "id": "المعرف",
+      "title": "العنوان",
+      "category": "الفئة",
+      "tags": "الوسوم",
+      "coverImage": "صورة الغلاف",
+      "published": "منشور",
+      "publishDate": "تاريخ النشر",
+      "createdAt": "تاريخ الإنشاء",
+      "contentPreview": "معاينة المحتوى",
+      "yes": "نعم",
+      "no": "لا",
+      "none": "لا يوجد",
+      "na": "غير متوفر"
+    }
+  },
+  "AddArticlePage": {
+    "title": "إضافة مقال جديد",
+    "cancel": "إلغاء"
+  },
+  "SettingsPage": {
+    "title": "إعدادات الملف الشخصي",
+    "profileImage": {
+      "label": "صورة الملف الشخصي",
+      "hint": "ارفع صورة مربعة (JPG، PNG)"
+    }
+  },
+  "ArticlesStats": {
+    "lineChart": {
+      "title": "النشر عبر الزمن",
+      "label": "المقالات"
+    },
+    "pieChart": {
+      "title": "حسب الفئة"
+    },
+    "barChart": {
+      "title": "توزيع الحالة"
+    },
+    "status": {
+      "Published": "منشور",
+      "Draft": "مسودة",
+      "Scheduled": "مجدول"
+    },
+    "categories": {
+      "Technology": "تقنية",
+      "Health": "صحة",
+      "Education": "تعليم",
+      "Business": "أعمال"
+    }
+  },
+  "DateRangePicker": {
+    "placeholder": "اختر نطاقًا زمنيًا"
+  },
+  "StatusPage": {
+    "title": "حالة المقالات",
+    "articlesCount": "مقال",
+    "inRange": "في النطاق المحدد",
+    "viewArticles": "عرض المقالات",
+    "filter": {
+      "title": "تصفية حسب التاريخ"
+    },
+    "presets": {
+      "allTime": "كل الوقت",
+      "last30Days": "آخر 30 يومًا"
+    },
+    "showingFrom": "عرض من",
+    "to": "إلى"
+  },
+  "LanguageSwitcher": {
+    "placeholder": "اللغة",
+    "ar": "العربية",
+    "en": "الإنجليزية"
+  },
+  "ModeToggle": {
+    "toggle": "تبديل الثيم",
+    "light": "فاتح",
+    "dark": "داكن"
+  },
+  "AppSidebar": {
+    "groupLabel": "التطبيق",
+    "items": {
+      "articles": "المقالات",
+      "stats": "الإحصائيات",
+      "settings": "الإعدادات"
+    }
+  }
+}
